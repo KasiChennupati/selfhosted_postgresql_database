@@ -7,3 +7,11 @@ Many of the self hosting applications related to iventory, asset, wiki or even f
 This repository is dedicated to hosting all required artifacts for running and hosting postgresql database locally in a containerised environment in a home server environment
 
 > __Note:__ The repository is committed very often to capture the complete thought process of changes and additions.
+
+## Prerequisites
+
+There is a required preliminaries for this repository 
+
+- Linux Operating System
+- Podman Desktop
+- Podman Compose
