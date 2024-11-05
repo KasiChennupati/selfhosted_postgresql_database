@@ -15,3 +15,19 @@ There is a required preliminaries for this repository
 - Linux Operating System
 - Podman Desktop
 - Podman Compose
+
+## Containerisation
+
+Before deploying a container a base image is required.
+For base images we will pick only the major postgres versions with base debian os flavour fixed for the most stable postgres and debian versions.
+
+| Debain Version | Postgres Version |
+| :------------: | :--------------: |
+|  Bullseye 11   |        14        |
+|  Bookwork 12   |        14        |
+
+```bash
+podman build --no-cache --file ./Containerfile.postgres14_bullseye --force-rm --tls-verify --tag kasichennupati/postgres14_bullseye_local
+```
+
+## References
