@@ -26,8 +26,16 @@ For base images we will pick only the major postgres versions with base debian o
 |  Bullseye 11   |        14        |
 |  Bookwork 12   |        14        |
 
+### Build
+
 ```bash
 podman build --no-cache --file ./Containerfile.postgres14_bullseye --force-rm --tls-verify --tag kasichennupati/postgres14_bullseye_local
+```
+
+### Run
+
+```bash
+podman-compose --project-name local_databases --file podman-compose.yml up --detach
 ```
 
 ## References
