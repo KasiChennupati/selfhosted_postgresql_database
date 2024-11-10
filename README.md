@@ -8,6 +8,10 @@ This repository is dedicated to hosting all required artifacts for running and h
 
 > __Note:__ The repository is committed very often to capture the complete thought process of changes and additions.
 
+## Project Structure
+
+## Configuration
+
 ## Prerequisites
 
 There is a required preliminaries for this repository 
@@ -43,5 +47,31 @@ podman-compose --project-name local_databases --file podman-compose.yml up --det
 ```
 
 read more in [Postgres_Container_Run_Setup.md](./docs/Postgres_Container_Run_Setup.md)
+
+## Usage
+
+## Development
+
+## Testing
+
+## Deployment
+
+## Contributing
+
+The individual contribution to this repository is not necessary at this point. 
+
+Please an issue to request a modification or additional feature in the repository
+
+## License
+
+please refer to the __[License](./License.txt)__ here
+
+## Authors / Maintainers
+
+- [Kasi Chennupati](https://github.com/KasiChennupati)
+
+## Acknowledgements
+
+- [Nutricloset](https://www.nutricloset.com) team always asked series of challenging quetions and throwing interesting problems my way that motivated me to keep current with learning and not loose sight
 
 ## References
