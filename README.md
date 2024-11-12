@@ -12,6 +12,13 @@ This repository is dedicated to hosting all required artifacts for running and h
 
 ## Configuration
 
+Postgres and for this entire repository approach a few environment variables are required to be added to make the platform efficient as possible.
+
+The configuration is split in to 2 levels
+
+- Host Level ( Virtual Machine, Cloud, Container or Physical Machine)
+- Platform Level (Specific to Postgres Cluster's behaviour and performace)
+
 ## Prerequisites
 
 There is a required preliminaries for this repository 
