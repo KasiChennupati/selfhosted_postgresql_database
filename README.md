@@ -42,7 +42,8 @@ read more in [Containerisation.md](./docs/Containerisation.md)
 ### Build
 
 ```bash
-podman build --file ./Containerfile.postgres14_bullseye  --tag kasichennupati/postgres14_bullseye_local
+podman build --no-cache --file ./Containerfile.postgres14_bullseye --force-rm --tls-verify --tag kasichennupati/postgres14_bullseye_local
+# BuiltImage : localhost/kasichennupati/postgres14_bullseye_local:latest
 ```
 
 read more in [Custom_Image_Build.md](./docs/Custom_Image_Build.md)
