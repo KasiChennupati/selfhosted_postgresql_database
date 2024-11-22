@@ -43,7 +43,7 @@ For base images we will pick only the major postgres versions with base debian o
 | Debain Version | Postgres Version |
 | :------------: | :--------------: |
 |  Bullseye 11   |        14        |
-|  Bookwork 12   |        14        |
+|  Bookworm 12   |        14        |
 
 read more in [Containerisation.md](./docs/Containerisation.md)
 
