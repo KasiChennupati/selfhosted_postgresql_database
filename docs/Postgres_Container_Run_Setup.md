@@ -13,7 +13,7 @@ podman run \
 --detach \
 --name postgres14_bullseye_container \
 --cidfile "./.container_id" \
---publish 54331:5432 \
+--publish 5422:5432 \
 --tz "Etc/UTC" \
 --env "POSTGRES_USER=postgres" \
 --env "POSTGRES_PASSWORD=postgres_password" \
